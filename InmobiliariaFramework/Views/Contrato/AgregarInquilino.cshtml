@@ -1,0 +1,75 @@
+﻿@model InmobiliariaFramework.Models.ViewModel.InmuebleViewModel
+
+@{
+    ViewBag.Title = "CONTRATO de ALQUILER";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<form >
+    <div>
+        “En la Ciudad La Punta- San Luis, en el día de la fecha &nbsp
+        Entre el/la Sr/Sra
+        @ViewBag.NPropietario
+        @ViewBag.APropietario </br>
+        titular del DNI Nº  @ViewBag.DniPropietario
+        </br>en adelante denominado el/la LOCADOR/A por una parte,</br>
+        y el/la Sr/Sra
+        @ViewBag.NniInquilino &nbsp
+        @ViewBag.AInquilino,
+        </br>titular del DNI Nº  @ViewBag.DniInquilino, </br>en adelante denominado el/la LOCATARIO/A.
+        </br> </br>
+
+        El/la LOCADOR/A da en alquiler al/la  LOCATARIO/A y éste/a acepta de conformidad, en las condiciones
+        en que se encuentra y declaran conocer,</br> el/la
+        @Html.TextBoxFor(d => d.Tipo),</br>  ubicado en
+        @Html.TextBoxFor(d => d.Direccion) , </br> para ser usado como
+        @Html.TextBoxFor(d => d.Uso), </br>comprometiéndose a pagar todos loa días 10 de cada mes la suma de $
+        @Html.TextBoxFor(d => d.Precio) </br> </br>
+
+        El presente contrato tiene vigencia desde el
+        <input type="date" id="Fecha_inicio" min="2019-09-01" max="2039-09-01"></br>
+        hasta el
+        <input type="date" id="Fecha_fin" min="2019-09-01" max="2039-09-01"></br>
+        </br></br>
+
+        Firma del locatario________________________________
+        </br></br>
+
+        Firma del locador:_________________________________
+        </br></br>
+        <input type="button" value="Guardar" onclick="jsAdd()" />
+        <input type="reset" value="Anular">
+    </div>
+</form>
+<script>
+    var url = "@Url.Content("~/Alquiler/Save2")";
+    function jsAdd() {
+        fetch(url, {
+            method: "POST",
+            body: JSON.stringify({
+                Precio: 0,
+                Fecha_inicio: document.getElementById("Fecha_inicio").value,
+                Fecha_fin:document.getElementById("Fecha_fin").value,
+                IdInquilino:0,
+                IdInmueble:0
+          }),
+            headers: {
+                'Acept': "application/json",
+                "Content-Type":"application/json"
+            }
+        }).then(function (response) {
+            if (response.ok)
+                return response.text()
+            else
+                alert("Error");
+        }).then(function (Data) {
+            if (Data != 1) {
+                alert(Data)
+            }
+            else {
+                document.location.href = "@Url.Content("~/Alquiler/")";
+            }
+        })
+    }
+</script>

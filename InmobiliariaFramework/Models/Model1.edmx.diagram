@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dcd18ac379b44f8bbe92df9a5baf84a2" Name="Diagram1">
+        <EntityTypeShape EntityType="BDInmobiliariaModel.alquiler" Width="1.5" PointX="5.25" PointY="1.125" />
+        <EntityTypeShape EntityType="BDInmobiliariaModel.inmueble" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="BDInmobiliariaModel.inquilino" Width="1.5" PointX="5.5" PointY="4.5" />
+        <EntityTypeShape EntityType="BDInmobiliariaModel.pago" Width="1.5" PointX="7.5" PointY="1.375" />
+        <EntityTypeShape EntityType="BDInmobiliariaModel.propietario" Width="1.5" PointX="0.75" PointY="1.125" />
+        <AssociationConnector Association="BDInmobiliariaModel.FK__alquiler2__IdInm__70DDC3D8" />
+        <AssociationConnector Association="BDInmobiliariaModel.FK__alquiler2__IdInq__72C60C4A" />
+        <AssociationConnector Association="BDInmobiliariaModel.FK__pago__idAlquiler__05D8E0BE" />
+        <AssociationConnector Association="BDInmobiliariaModel.FK_propietario_inmueble" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

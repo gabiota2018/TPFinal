@@ -1,0 +1,196 @@
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\InmobiliariaFramework.dll.config
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\InmobiliariaFramework.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\InmobiliariaFramework.pdb
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\csc.exe
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\csc.exe.config
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\csc.rsp
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\csi.exe
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\csi.exe.config
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\csi.rsp
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.AppContext.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Console.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.IO.Compression.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Security.Claims.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.ValueTuple.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\vbc.exe
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\vbc.exe.config
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\vbc.rsp
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\Antlr3.Runtime.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\EntityFramework.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\EntityFramework.SqlServer.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\Newtonsoft.Json.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Web.Helpers.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Web.Mvc.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Web.Optimization.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Web.Razor.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Web.WebPages.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Web.WebPages.Razor.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\WebGrease.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\EntityFramework.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\EntityFramework.SqlServer.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Web.Helpers.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Web.Mvc.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Web.Optimization.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Web.Razor.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Web.WebPages.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Web.WebPages.Razor.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\Newtonsoft.Json.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\Antlr3.Runtime.pdb
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\es\System.Web.Razor.resources.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\obj\Debug\InmobiliariaFramework.csprojAssemblyReference.cache
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\obj\Debug\InmobiliariaFramework.csproj.CopyComplete
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\obj\Debug\InmobiliariaFramework.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\obj\Debug\InmobiliariaFramework.pdb
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Buffers.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Memory.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Numerics.Vectors.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Buffers.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Memory.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Numerics.Vectors.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework\InmobiliariaFramework\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\InmobiliariaFramework.dll.config
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\InmobiliariaFramework.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\InmobiliariaFramework.pdb
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\csc.exe
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\csc.exe.config
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\csc.rsp
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\csi.exe
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\csi.exe.config
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\csi.rsp
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.AppContext.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Console.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.IO.Compression.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Security.Claims.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.ValueTuple.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\vbc.exe
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\vbc.exe.config
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\vbc.rsp
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\Antlr3.Runtime.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\EntityFramework.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\EntityFramework.SqlServer.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\Newtonsoft.Json.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Buffers.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Memory.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Numerics.Vectors.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Web.Helpers.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Web.Mvc.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Web.Optimization.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Web.Razor.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Web.WebPages.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Web.WebPages.Razor.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\WebGrease.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\EntityFramework.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\EntityFramework.SqlServer.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Buffers.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Memory.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Numerics.Vectors.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Web.Helpers.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Web.Mvc.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Web.Optimization.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Web.Razor.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Web.WebPages.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\System.Web.WebPages.Razor.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\Newtonsoft.Json.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\Antlr3.Runtime.pdb
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\es\System.Web.Razor.resources.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\obj\Debug\InmobiliariaFramework.csprojAssemblyReference.cache
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\obj\Debug\InmobiliariaFramework.csproj.CopyComplete
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\obj\Debug\InmobiliariaFramework.dll
+C:\Users\Andrea\source\repos\InmobiliariaFramework - copia (7)\InmobiliariaFramework\obj\Debug\InmobiliariaFramework.pdb

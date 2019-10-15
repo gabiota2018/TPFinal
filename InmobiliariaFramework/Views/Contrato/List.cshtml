@@ -1,0 +1,82 @@
+﻿@model IEnumerable<InmobiliariaFramework.Models.CarpetaRepo.InmuebleModel>
+
+@{
+    ViewBag.Title = "Nuevo Contrato";
+}
+
+
+<h3>Paso 1- Seleccionar INMUEBLE</h3>
+
+
+<table class="table">
+    <tr>
+        <th>
+
+            @Html.DisplayNameFor(model => model.IdInmueble)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Direccion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ambientes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tipo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Uso)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Precio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Duenio.Dni) propietario
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Duenio.Nombre) propietario
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Duenio.Apellido) propietario
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdInmueble)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Direccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ambientes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Duenio.Dni)
+            </td>
+            <td>
+                @Html.HiddenFor(modelItem => item.IdPropietario)
+                @Html.DisplayFor(modelItem => item.Duenio.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Duenio.Apellido)
+            </td>
+            <td>
+                @Html.ActionLink("Agregar", "Nuevo", new { id = item.IdInmueble })
+            </td>
+        </tr>
+    }
+
+</table>

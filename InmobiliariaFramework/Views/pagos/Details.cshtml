@@ -1,0 +1,50 @@
+﻿@model InmobiliariaFramework.Models.pagos
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>pagos</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nroPago)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nroPago)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.importe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.importe)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.alquiler.idAlquiler)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alquiler.idAlquiler)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idPagos }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,47 @@
+﻿@model IEnumerable<InmobiliariaFramework.Models.ViewModel.PagosViewModel>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IdPago)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NroPago)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IdAlquiler)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Importe)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.IdPago)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.NroPago)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.IdAlquiler)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Fecha)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Importe)
+    </td>
+    <td>
+        @Html.ActionLink("Anular", "Delete", new { id = item.IdPago})
+    </td>
+</tr>
+    }
+
+</table>

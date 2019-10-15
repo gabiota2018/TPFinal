@@ -1,0 +1,70 @@
+﻿@model IEnumerable<InmobiliariaFramework.Models.ViewModel.InquilinoViewModel>
+
+@{
+    ViewBag.Title = "Nuevo Contrato";
+}
+
+<h2>@ViewBag.Title</h2>
+<h3>Paso 2- Seleccionar LOCATARIO</h3>
+
+
+<table class="table">
+
+    <tr>
+        <th>
+            <input type="hidden" name="IdInmueble" value="@ViewBag.IdInmueble" />
+            @Html.DisplayNameFor(model => model.IdInquilino)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dni)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Apellido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Direccion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefono)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Borrado)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.IdInquilino)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Dni)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Apellido)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Direccion)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Telefono)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Borrado)
+    </td>
+    <td>
+    <td>
+        @Html.ActionLink("Agregar", "AgregarInquilino", new { id = item.IdInquilino })
+    </td>
+   
+</tr>
+    }
+</table>

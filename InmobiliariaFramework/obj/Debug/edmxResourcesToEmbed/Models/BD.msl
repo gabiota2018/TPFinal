@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BDInmobiliariaModelStoreContainer" CdmEntityContainer="BDInmobiliariaEntities">
+    <EntitySetMapping Name="alquiler">
+      <EntityTypeMapping TypeName="BDInmobiliariaModel.alquiler">
+        <MappingFragment StoreEntitySet="alquiler">
+          <ScalarProperty Name="borrado" ColumnName="borrado" />
+          <ScalarProperty Name="IdInmueble" ColumnName="IdInmueble" />
+          <ScalarProperty Name="IdInquilino" ColumnName="IdInquilino" />
+          <ScalarProperty Name="fecha_fin" ColumnName="fecha_fin" />
+          <ScalarProperty Name="fecha_inicio" ColumnName="fecha_inicio" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="idAlquiler" ColumnName="idAlquiler" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="inmueble">
+      <EntityTypeMapping TypeName="BDInmobiliariaModel.inmueble">
+        <MappingFragment StoreEntitySet="inmueble">
+          <ScalarProperty Name="borrado" ColumnName="borrado" />
+          <ScalarProperty Name="idPropietario" ColumnName="idPropietario" />
+          <ScalarProperty Name="disponible" ColumnName="disponible" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="uso" ColumnName="uso" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+          <ScalarProperty Name="ambientes" ColumnName="ambientes" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="idInmueble" ColumnName="idInmueble" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="inquilino">
+      <EntityTypeMapping TypeName="BDInmobiliariaModel.inquilino">
+        <MappingFragment StoreEntitySet="inquilino">
+          <ScalarProperty Name="borrado" ColumnName="borrado" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="dni" ColumnName="dni" />
+          <ScalarProperty Name="idInquilino" ColumnName="idInquilino" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pago">
+      <EntityTypeMapping TypeName="BDInmobiliariaModel.pago">
+        <MappingFragment StoreEntitySet="pago">
+          <ScalarProperty Name="borrado" ColumnName="borrado" />
+          <ScalarProperty Name="importe" ColumnName="importe" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="idAlquiler" ColumnName="idAlquiler" />
+          <ScalarProperty Name="nroPago" ColumnName="nroPago" />
+          <ScalarProperty Name="idPago" ColumnName="idPago" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="propietario">
+      <EntityTypeMapping TypeName="BDInmobiliariaModel.propietario">
+        <MappingFragment StoreEntitySet="propietario">
+          <ScalarProperty Name="borrado" ColumnName="borrado" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="dni" ColumnName="dni" />
+          <ScalarProperty Name="idPropietario" ColumnName="idPropietario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

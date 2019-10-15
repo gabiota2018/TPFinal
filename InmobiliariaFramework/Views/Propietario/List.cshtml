@@ -1,0 +1,23 @@
+﻿
+@using InmobiliariaFramework.Models.ViewModel
+@model List<PropietarioViewModel>
+
+
+@foreach (var oPropietario in Model)//es el model de la línea 2
+{
+    int Id = Convert.ToInt32(@oPropietario.IdPropietario);
+    <div>
+        Dni:@oPropietario.Dni<br />
+        Nombre:@oPropietario.Nombre<br />
+        Apellido:@oPropietario.Apellido<br />
+        Telefono:@oPropietario.Telefono<br />
+        Email:@oPropietario.Mail<br />
+        Password:@oPropietario.Password
+        <input type="button" value="Editar" onclick="document.location.href='@Url.Content("~/Propietario/Edit/?Id="+oPropietario.IdPropietario)'">
+        <input type="button" value="Eliminar" onclick="jsDelete(@oPropietario.IdPropietario)">
+    </div>
+}
+
+
+
+

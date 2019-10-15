@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BDInmobiliariaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="BDInmobiliariaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="alquiler" EntityType="BDInmobiliariaModel.alquiler" />
+    <EntitySet Name="inmueble" EntityType="BDInmobiliariaModel.inmueble" />
+    <EntitySet Name="inquilino" EntityType="BDInmobiliariaModel.inquilino" />
+    <EntitySet Name="pago" EntityType="BDInmobiliariaModel.pago" />
+    <EntitySet Name="propietario" EntityType="BDInmobiliariaModel.propietario" />
+    <AssociationSet Name="FK__alquiler2__IdInm__70DDC3D8" Association="BDInmobiliariaModel.FK__alquiler2__IdInm__70DDC3D8">
+      <End Role="inmueble" EntitySet="inmueble" />
+      <End Role="alquiler" EntitySet="alquiler" />
+    </AssociationSet>
+    <AssociationSet Name="FK__alquiler2__IdInq__72C60C4A" Association="BDInmobiliariaModel.FK__alquiler2__IdInq__72C60C4A">
+      <End Role="inquilino" EntitySet="inquilino" />
+      <End Role="alquiler" EntitySet="alquiler" />
+    </AssociationSet>
+    <AssociationSet Name="FK__pago__idAlquiler__75A278F5" Association="BDInmobiliariaModel.FK__pago__idAlquiler__75A278F5">
+      <End Role="alquiler" EntitySet="alquiler" />
+      <End Role="pago" EntitySet="pago" />
+    </AssociationSet>
+    <AssociationSet Name="FK_propietario_inmueble" Association="BDInmobiliariaModel.FK_propietario_inmueble">
+      <End Role="propietario" EntitySet="propietario" />
+      <End Role="inmueble" EntitySet="inmueble" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="alquiler">
+    <Key>
+      <PropertyRef Name="idAlquiler" />
+    </Key>
+    <Property Name="idAlquiler" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="precio" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="fecha_inicio" Type="DateTime" Precision="0" />
+    <Property Name="fecha_fin" Type="DateTime" Precision="0" />
+    <Property Name="IdInquilino" Type="Int32" Nullable="false" />
+    <Property Name="IdInmueble" Type="Int32" Nullable="false" />
+    <Property Name="borrado" Type="Int32" />
+    <NavigationProperty Name="inmueble" Relationship="BDInmobiliariaModel.FK__alquiler2__IdInm__70DDC3D8" FromRole="alquiler" ToRole="inmueble" />
+    <NavigationProperty Name="inquilino" Relationship="BDInmobiliariaModel.FK__alquiler2__IdInq__72C60C4A" FromRole="alquiler" ToRole="inquilino" />
+    <NavigationProperty Name="pago" Relationship="BDInmobiliariaModel.FK__pago__idAlquiler__75A278F5" FromRole="alquiler" ToRole="pago" />
+  </EntityType>
+  <EntityType Name="inmueble">
+    <Key>
+      <PropertyRef Name="idInmueble" />
+    </Key>
+    <Property Name="idInmueble" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="direccion" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ambientes" Type="Int32" Nullable="false" />
+    <Property Name="tipo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="uso" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="precio" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="disponible" Type="Int32" Nullable="false" />
+    <Property Name="idPropietario" Type="Int32" Nullable="false" />
+    <Property Name="borrado" Type="Int32" />
+    <NavigationProperty Name="alquiler" Relationship="BDInmobiliariaModel.FK__alquiler2__IdInm__70DDC3D8" FromRole="inmueble" ToRole="alquiler" />
+    <NavigationProperty Name="propietario" Relationship="BDInmobiliariaModel.FK_propietario_inmueble" FromRole="inmueble" ToRole="propietario" />
+  </EntityType>
+  <EntityType Name="inquilino">
+    <Key>
+      <PropertyRef Name="idInquilino" />
+    </Key>
+    <Property Name="idInquilino" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="dni" Type="Int32" Nullable="false" />
+    <Property Name="apellido" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="direccion" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="telefono" Type="Int32" Nullable="false" />
+    <Property Name="borrado" Type="Int32" />
+    <NavigationProperty Name="alquiler" Relationship="BDInmobiliariaModel.FK__alquiler2__IdInq__72C60C4A" FromRole="inquilino" ToRole="alquiler" />
+  </EntityType>
+  <EntityType Name="pago">
+    <Key>
+      <PropertyRef Name="idPago" />
+    </Key>
+    <Property Name="idPago" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nroPago" Type="Int32" />
+    <Property Name="idAlquiler" Type="Int32" />
+    <Property Name="fecha" Type="DateTime" Precision="0" />
+    <Property Name="importe" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="borrado" Type="Int32" />
+    <NavigationProperty Name="alquiler" Relationship="BDInmobiliariaModel.FK__pago__idAlquiler__75A278F5" FromRole="pago" ToRole="alquiler" />
+  </EntityType>
+  <EntityType Name="propietario">
+    <Key>
+      <PropertyRef Name="idPropietario" />
+    </Key>
+    <Property Name="idPropietario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="dni" Type="Int32" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="telefono" Type="Int32" />
+    <Property Name="mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="borrado" Type="Int32" />
+    <NavigationProperty Name="inmueble" Relationship="BDInmobiliariaModel.FK_propietario_inmueble" FromRole="propietario" ToRole="inmueble" />
+  </EntityType>
+  <Association Name="FK__alquiler2__IdInm__70DDC3D8">
+    <End Type="BDInmobiliariaModel.inmueble" Role="inmueble" Multiplicity="1" />
+    <End Type="BDInmobiliariaModel.alquiler" Role="alquiler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="inmueble">
+        <PropertyRef Name="idInmueble" />
+      </Principal>
+      <Dependent Role="alquiler">
+        <PropertyRef Name="IdInmueble" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__alquiler2__IdInq__72C60C4A">
+    <End Type="BDInmobiliariaModel.inquilino" Role="inquilino" Multiplicity="1" />
+    <End Type="BDInmobiliariaModel.alquiler" Role="alquiler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="inquilino">
+        <PropertyRef Name="idInquilino" />
+      </Principal>
+      <Dependent Role="alquiler">
+        <PropertyRef Name="IdInquilino" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__pago__idAlquiler__75A278F5">
+    <End Type="BDInmobiliariaModel.alquiler" Role="alquiler" Multiplicity="0..1" />
+    <End Type="BDInmobiliariaModel.pago" Role="pago" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="alquiler">
+        <PropertyRef Name="idAlquiler" />
+      </Principal>
+      <Dependent Role="pago">
+        <PropertyRef Name="idAlquiler" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_propietario_inmueble">
+    <End Type="BDInmobiliariaModel.propietario" Role="propietario" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="BDInmobiliariaModel.inmueble" Role="inmueble" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="propietario">
+        <PropertyRef Name="idPropietario" />
+      </Principal>
+      <Dependent Role="inmueble">
+        <PropertyRef Name="idPropietario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

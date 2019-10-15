@@ -1,0 +1,25 @@
+﻿
+@using InmobiliariaFramework.Models.ViewModel
+@model List<InquilinoViewModel>
+@{
+    Layout = null;
+}
+
+<h2>Listado de propietarios</h2>
+@foreach (var oInquilino in Model)
+{
+<div>
+    Dni:@oInquilino.Dni<br />
+    Apellido:@oInquilino.Apellido<br />
+    Nombre:@oInquilino.Nombre<br />
+    Direccion:@oInquilino.Direccion<br />
+    Telefono:@oInquilino.Telefono<br />
+
+
+    <input type="button" value="Editar" onclick="document.location.href='@Url.Content("~/Inquilino/Edit/?Id="+oInquilino.IdInquilino)'">
+
+    <input type="button" value="Eliminar" onclick="jsDelete(@oInquilino.IdInquilino)">
+</div>
+}
+
+

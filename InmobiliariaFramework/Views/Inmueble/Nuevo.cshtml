@@ -1,0 +1,73 @@
+﻿@model InmobiliariaFramework.Models.ViewModel.InmuebleViewModel
+@{
+    ViewBag.Title = "";
+}
+
+<form>
+    <div class="row">
+        <div class="form-group">
+            @Html.LabelFor(d => d.Direccion)
+            @Html.TextBoxFor(d => d.Direccion, new { id = "Direccion" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.Ambientes)
+            @Html.TextBoxFor(d => d.Ambientes, new { id = "Ambientes" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.Tipo)
+            @Html.TextBoxFor(d => d.Tipo, new { id = "Tipo" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.Uso)
+            @Html.TextBoxFor(d => d.Uso, new { id = "Uso" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.Precio)
+            @Html.TextBoxFor(d => d.Precio, new { id = "Precio" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.Disponible)
+            @Html.TextBoxFor(d => d.Disponible, new { id = "Disponible" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.IdInmueble)
+            @Html.TextBoxFor(d => d.IdPropietario, new { id = "Propietario" })
+        </div>
+        <input type="button" value="Guardar" onclick="jsAdd()" />
+    </div>
+</form>
+<script>
+    var url = "@Url.Content("~/Inmueble/Save")";
+    function jsAdd() {
+        fetch(url, {
+            method: "POST",
+            body: JSON.stringify({
+                Direccion: document.getElementById("Direccion").value,
+                Ambientes: document.getElementById("Ambientes").value,
+                Tipo:document.getElementById("Tipo").value,
+                Uso:document.getElementById("Uso").value,
+                Precio:document.getElementById("Precio").value,
+                Disponible: document.getElementById("Disponible").value,
+                idPropietario: document.getElementById("Propietario").value
+            }),
+            headers: {
+                'Acept': "application/json",
+                "Content-Type":"application/json"
+            }
+        }).then(function (response) {
+            if (response.ok)
+                return response.text()
+            else
+                alert("Error");
+        }).then(function (Data) {
+            if (Data != 1) {
+                alert(Data)
+            }
+            else {
+                document.location.href = "@Url.Content("~/Inmueble/")";
+            }
+        })
+    }
+</script>
+
+
